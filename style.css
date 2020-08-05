@@ -1,0 +1,136 @@
+
+/* ==============Head of Page======================== */
+.title {
+    text-align: center;
+    font-size: 450%;
+    font-weight: bold;
+    padding: 3.5% 0 1% 0;
+    letter-spacing: 11px;
+    transform: scale(1, .95);
+}
+
+.subTitle {
+    text-align: center;
+    font-size: 90%;
+    font-weight: 600;
+    /* padding: 3%; */
+    letter-spacing: 5px;
+    color: rgb(173, 173, 173);
+    transform: scale(1, .93);
+    margin-bottom: 4%;
+}
+
+.stSpecial {
+    color: rgb(9, 226, 179);
+}
+
+.nav {
+    text-align: center;
+    align-content: center;
+    font-size: 90%;
+    margin: 0 15%;
+    transform: scale(1, .9);
+   
+}
+
+.navSub {
+    text-align: center;
+    padding: 1%;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+    }
+ .navSub:link {
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+  }
+  
+  .navSub:visited {
+    color: none;
+  }
+  
+  .navSub:hover {
+    color: rgb(190, 190, 190);
+  }
+  
+  .navSub:active {
+    color: rgb(190, 190, 190);
+  }
+
+  .navActivePage {
+      color: rgb(190, 190, 190);
+  }
+  /* ==============End Head of Page======================== */
+
+/* ================ beginning of index ======================= */
+
+.buildContent {
+    margin: 7% auto;
+    
+}
+
+.build {
+    width: 100%;
+    margin: 1%;
+    
+}
+
+/* ================= beginning of mixed media ============================ */
+
+
+.buildContent {
+    margin: 7% auto;
+    
+}
+
+.anthro {
+    width: 100%;
+    margin: 1%;
+    
+}
+
+
+
+
+
+  /* ================Contact Page========================== */
+  .contactEntry {
+      /* text-align: center; */
+      margin: 10% 5%;
+      
+  }
+
+  /* .formTitleTag {
+      text-align: left;
+  } */
+
+  .formNameEntry {
+        width: 100%;
+  }
+  
+  .formEmailEntry {
+        width: 100%;
+  }
+
+  .formMessageEntry {
+        width: 100%;
+  }
+
+
+  .subBtnStyle {
+      /* justify-content: center; */
+      /* align-content: center; */
+      text-align: center;
+  }
+/* .yoyo {
+    background-color: red;
+} */
+ 
+
+  .messages {
+    align-content: center;
+    text-align: center;
+    margin: 7% auto;
+    width: 90%;
+  }
