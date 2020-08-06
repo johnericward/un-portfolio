@@ -2,6 +2,7 @@
 /* ==============Head of Page======================== */
 .title {
     text-align: center;
+    align-content: center;
     font-size: 450%;
     width: 80%;
     margin: auto;
@@ -9,6 +10,7 @@
     padding: 3.5% 0 1% 0;
     letter-spacing: 11px;
     transform: scale(1, .95);
+    /* background-color: red; */
 }
 
 .subTitle {
@@ -37,7 +39,7 @@
 
 .navSub {
     text-align: center;
-    padding: 1%;
+    padding: 1% auto;
     align-content: center;
     margin: 0 auto;
     color: rgb(107, 107, 107);
@@ -63,6 +65,77 @@
 
   .navActivePage {
       color: rgb(190, 190, 190);
+  }
+
+  .navbar {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+  }
+
+  .bg {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+  }
+
+  .navbar-light {
+      background-color: none;
+      text-align: center;
+    align-content: center;
+  }
+
+  .navbar-expand-lg {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+    /* background-color: red; */
+  }
+.navbar-nav:hover {
+    color: rgb(190, 190, 190);
+}
+
+
+
+  .nav-item {
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+    /* background-color: red; */
+  }
+
+  .nav-item:hover {
+    color: rgb(190, 190, 190);
+  }
+
+  .nav-link {
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+  }
+
+  .navbar-toggler {
+    text-align: center;
+    align-content: center;
+  }
+  .navbar-toggler-icon {
+    text-align: center;
+    align-content: center;
   }
   /* ==============End Head of Page======================== */
 
@@ -183,7 +256,7 @@
   @media screen and (max-width: 992px) {
   
 .title {
-    font-size: 200%;
+    font-size: 190%;
 }
 
 }
