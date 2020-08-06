@@ -1,4 +1,10 @@
 // Your web app's Firebase configuration
+
+// require('dotenv').config();
+// process.env.API_KEY,
+    
+    
+    
 var firebaseConfig = {
     apiKey: "AIzaSyAIsrHea_coLIGflHeF3CmUUNy50Xzuddw",
     authDomain: "un-portfolio.firebaseapp.com",

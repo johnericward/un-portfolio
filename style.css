@@ -3,6 +3,8 @@
 .title {
     text-align: center;
     font-size: 450%;
+    width: 80%;
+    margin: auto;
     font-weight: bold;
     padding: 3.5% 0 1% 0;
     letter-spacing: 11px;
@@ -172,3 +174,16 @@
   .messageCol {
     color: rgb(9, 121, 226);
   }
+
+
+
+
+  /* PHONES */
+
+  @media screen and (max-width: 992px) {
+  
+.title {
+    font-size: 300%;
+}
+
+}
