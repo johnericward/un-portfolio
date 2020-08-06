@@ -52,6 +52,7 @@
   
   .navSub:hover {
     color: rgb(190, 190, 190);
+    /* text-shadow: 1px 1px 8px rgba(200,200,200,10); */
   }
   
   .navSub:active {
