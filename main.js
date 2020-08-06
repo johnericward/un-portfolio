@@ -53,7 +53,12 @@ $(document).ready(function () {
 
         // $('.messages tbody').append(tr);
 
-        $(".messages").append(snapshot.val().name).append("  |  " + snapshot.val().email).append("  |  " + snapshot.val().message).append("<br><br>");
+        // $(".messages").append(snapshot.val().name).append("  |  " + snapshot.val().email).append("  |  " + snapshot.val().message).append("<br><br>");
+
+
+        $(".nameDrop").append("<span class='nameCol'>" + snapshot.val().name + "</span>").append("<br><br>");
+        $(".emailDrop").append("<span class='emailCol'>" + snapshot.val().email + "</span>").append("<br><br>");
+        $(".messageDrop").append("<span class='messageCol'>" + snapshot.val().message + "</span>").append("<br><br>");
 
         
 
