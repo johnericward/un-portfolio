@@ -1,5 +1,5 @@
 
-/* ==============Head of Page======================== */
+/* ===================Head of Page======================== */
 .title {
     text-align: center;
     align-content: center;
@@ -28,6 +28,8 @@
     color: rgb(9, 226, 179);
 }
 
+
+/* ================NAV================= */
 .nav {
     text-align: center;
     align-content: center;
@@ -36,8 +38,8 @@
     transform: scale(1, .9);
    
 }
-
 .navSub {
+    transform: scale(1, .9);
     text-align: center;
     padding: 1% auto;
     align-content: center;
@@ -61,36 +63,34 @@
   
   .navSub:active {
     color: rgb(190, 190, 190);
+    
   }
 
   .navActivePage {
       color: rgb(190, 190, 190);
   }
 
+  /* ==========={ BS nav BS }=========== */
   .navbar {
     background-color: none;
     text-align: center;
     align-content: center;
   }
-
   .bg {
     background-color: none;
     text-align: center;
     align-content: center;
   }
-
   .navbar-light {
       background-color: none;
       text-align: center;
-    align-content: center;
+    align-content: center;  
   }
-
   .navbar-expand-lg {
     background-color: none;
     text-align: center;
     align-content: center;
   }
-
   .navbar-nav {
     text-align: center;
     padding: 1% auto;
@@ -98,14 +98,10 @@
     margin: 0 auto;
     color: rgb(107, 107, 107);
     text-decoration: none;
-    /* background-color: red; */
   }
 .navbar-nav:hover {
     color: rgb(190, 190, 190);
 }
-
-
-
   .nav-item {
     text-align: center;
     padding: 1% auto;
@@ -113,13 +109,11 @@
     margin: 0 auto;
     color: rgb(107, 107, 107);
     text-decoration: none;
-    /* background-color: red; */
   }
 
   .nav-item:hover {
     color: rgb(190, 190, 190);
   }
-
   .nav-link {
     text-align: center;
     padding: 1% auto;
@@ -128,7 +122,6 @@
     color: rgb(107, 107, 107);
     text-decoration: none;
   }
-
   .navbar-toggler {
     text-align: center;
     align-content: center;
@@ -136,10 +129,11 @@
   .navbar-toggler-icon {
     text-align: center;
     align-content: center;
+    
   }
-  /* ==============End Head of Page======================== */
+/* ============================={ End Head of Page }================================ */
 
-/* ================ beginning of index ======================= */
+/* ===================={ index }==================================================== */
 
 .buildContent {
     margin: 7% auto;
@@ -148,11 +142,11 @@
 
 .build {
     width: 100%;
-    margin: 1% 0;
+    margin: 2% 0;
     
 }
 
-/* ================= beginning of mixed media ============================ */
+/* ====================={ Mixed Media }============================================ */
 
 
 .buildContent {
@@ -162,15 +156,20 @@
 
 .anthro {
     width: 100%;
-    margin: 1% 0;
+    margin: 2% 0;
     
+}
+
+/* ========================{ Paint Page }========================================== */
+
+.paint {
+    width: 100%;
+    margin: 2% 0;
 }
 
 
 
-
-
-  /* ================Contact Page========================== */
+/* ====================={ Contact Page }========================================== */
   .contactEntry {
       /* text-align: center; */
       margin: 10% 5%;
@@ -224,10 +223,11 @@
   .submit-btn:active {
     text-decoration: none;
   }
-/* .yoyo {
-    background-color: red;
-} */
- /* ===========================Messages div=================================== */
+
+/* ========================{ Other Page }========================================== */
+
+
+/* =========================={ Messages }========================================== */
 
   .messagesDiv {
     align-content: center;
@@ -249,7 +249,7 @@
   }
 
 
-
+/* ========================{ Media Queries }======================================= */
 
   /* PHONES */
 
