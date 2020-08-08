@@ -277,18 +277,27 @@
 /* =========================={ About Page }======================================== */
 
 .mePic {
-  width: 90%;
+  width: 80%;
   box-shadow: -3px -4px 8px rgba(200,200,200,10);
 }
 
 .aboutText {
   /* font-size:250%; */
   margin: 20% auto;
+  width: 80%;
+  font-size: 1.2vw;
+  /* height: .mePic; */
+  font-weight: bold;
+  /* background-color: pink; */
 }
 
 .shopText {
   text-align: center;
+  font-size: 1vw
+  /* height: 30%; */
 }
+
+
 
 /* =========================={ Messages }========================================== */
 
@@ -333,6 +342,21 @@
 
 .appleii:hover {
   width: 75%;
+}
+
+.aboutText {
+  /* font-size:250%; */
+
+  font-size: 4vw;
+  /* height: .mePic; */
+
+ 
+}
+
+.shopText {
+  /* text-align: center; */
+  font-size: 3vw
+  /* height: 30%; */
 }
 
 }
