@@ -3,7 +3,7 @@
 .title {
     text-align: center;
     align-content: center;
-    font-size: 450%;
+    font-size: 4vw;
     width: 80%;
     margin: auto;
     font-weight: bold;
@@ -15,7 +15,7 @@
 
 .subTitle {
     text-align: center;
-    font-size: 90%;
+    font-size: 1vw;
     font-weight: 600;
     /* padding: 3%; */
     letter-spacing: 5px;
@@ -328,8 +328,28 @@
   @media screen and (max-width: 992px) {
   
 .title {
-    font-size: 190%;
+    font-size: 6vw;
 }
+
+.subTitle {
+  text-align: center;
+  font-size: 3vw;
+}
+
+.build {
+    width: 95%;
+    margin: 2% 0;
+}
+.anthro {
+    width: 95%;
+    margin: 2% 0;
+}
+.paint {
+    width: 95%;
+    margin: 2% 0;
+}
+
+
 
 .other {
   /* width: 80%; */
