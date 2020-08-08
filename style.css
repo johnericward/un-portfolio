@@ -28,6 +28,17 @@
     color: rgb(9, 226, 179);
 }
 
+.aboutE {
+  color: rgb(173, 173, 173);
+}
+.aboutE:hover {
+  color: rgb(228, 228, 228);
+  text-decoration: none;
+}
+
+.aboutEActive {
+  color: rgb(228, 228, 228);
+}
 
 /* ================NAV================= */
 .nav {
@@ -137,7 +148,8 @@
 
 .buildContent {
     margin: 7% auto;
-    
+    text-align: center;
+  align-content: center;
 }
 
 .build {
@@ -149,9 +161,10 @@
 /* ====================={ Mixed Media }============================================ */
 
 
-.buildContent {
+.mixedContent {
     margin: 7% auto;
-    
+    text-align: center;
+  align-content: center;
 }
 
 .anthro {
@@ -171,7 +184,6 @@
     width: 100%;
     margin: 2% 0;
 }
-
 
 
 /* ====================={ Contact Page }========================================== */
@@ -231,6 +243,52 @@
 
 /* ========================{ Other Page }========================================== */
 
+.otherContent {
+  margin: 7% auto;
+  text-align: center;
+  align-content: center;
+  
+}
+
+.appleii {
+  width: 100%;
+  margin: 5% auto;
+  text-align: center;
+  align-content: center;
+  transition: width .4s;
+}
+
+.appleii:hover {
+  width: 108%;
+}
+
+.other {
+  width: 50%;
+  margin: 5% auto;
+  text-align: center;
+  align-content: center;
+  transition: width .4s;
+}
+
+.other:hover {
+  width: 54%;
+}
+
+/* =========================={ About Page }======================================== */
+
+.mePic {
+  width: 90%;
+  box-shadow: -3px -4px 8px rgba(200,200,200,10);
+}
+
+.aboutText {
+  /* font-size:250%; */
+  margin: 20% auto;
+}
+
+.shopText {
+  text-align: center;
+}
 
 /* =========================={ Messages }========================================== */
 
@@ -262,6 +320,19 @@
   
 .title {
     font-size: 190%;
+}
+
+.other {
+  /* width: 80%; */
+}
+
+.appleii {
+  width: 70%;
+  transition: width .4s;
+}
+
+.appleii:hover {
+  width: 75%;
 }
 
 }
