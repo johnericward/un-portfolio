@@ -297,7 +297,8 @@
 
 .shopText {
   text-align: center;
-  font-size: 1vw
+  font-size: 1vw;
+  margin: 15% auto;
   /* height: 30%; */
 }
 
