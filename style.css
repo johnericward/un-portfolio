@@ -27,6 +27,10 @@
 .stSpecial {
     color: rgb(9, 226, 179);
 }
+.stSpecial:hover {
+  color: rgb(92, 255, 220);
+  text-decoration: none;
+}
 
 .aboutE {
   color: rgb(173, 173, 173);
@@ -251,15 +255,15 @@
 }
 
 .appleii {
-  width: 100%;
-  margin: 5% auto;
+  width: 90%;
+  margin: 20% auto;
   text-align: center;
   align-content: center;
   transition: width .4s;
 }
 
 .appleii:hover {
-  width: 108%;
+  width: 98%;
 }
 
 .other {
