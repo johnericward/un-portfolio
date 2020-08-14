@@ -41,6 +41,7 @@ $(document).ready(function () {
         database.ref().push(newMessage);
 
         console.log(newMessage);
+        $(".successMessage").html("Message sent!");
     });
 
     database.ref().on("child_added", function (snapshot) {
