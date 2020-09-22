@@ -1,6 +1,6 @@
 html, body {
   width: 100%;
-  /* height: 100%; */
+ 
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -151,7 +151,7 @@ html, body {
 /* ===================={ index }==================================================== */
 
 .buildContent {
-    margin: 7% auto;
+    margin: 2% auto;
     text-align: center;
     align-content: center;
 }
@@ -193,10 +193,10 @@ html, body {
 
 /* ========================{ Paint Page }========================================== */
 
-.buildContent {
+/* .buildContent {
     margin: 7% auto;
     
-}
+} */
 
 .paint {
     width: 100%;
