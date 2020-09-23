@@ -465,7 +465,7 @@ html, body {
 
 .mobileExtra {
   visibility: hidden;
-  display: none;
+  /* display: none; */
 }
 
 
@@ -594,13 +594,13 @@ html, body {
 
 
 .desktopExtra {
-visibility: hidden;
-display: none;
+/* visibility: hidden; */
+  display: none;
 }
 
 .mobileExtra {
   visibility: visible;
-  display: block;
+  /* display: inline-block; */
 }
 
 }
