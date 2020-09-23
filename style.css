@@ -480,10 +480,10 @@ html, body {
   margin: 5% auto;
   text-align: center;
   align-content: center;
-  opacity: 1;
-  display: block;
+  /* opacity: 1; */
+  /* display: block; */
   width: 100%;
-  height: auto;
+  /* height: auto; */
   /* transition: .5s ease; */
   /* backface-visibility: hidden; */
   border-radius: 20px;
