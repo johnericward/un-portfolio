@@ -463,6 +463,57 @@ html, body {
   color: rgb(255, 255, 255);
 }
 
+.mobileExtra {
+  visibility: hidden;
+  display: none;
+}
+
+
+.projectContainerMobile {
+  /* position: relative; */
+  width: 90%;
+  margin: 5% 5% 20% 5%;
+  
+}
+
+.projectImageMobile {
+  margin: 5% auto;
+  text-align: center;
+  align-content: center;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  /* transition: .5s ease; */
+  /* backface-visibility: hidden; */
+  border-radius: 20px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+
+
+.projectTextMobile {
+  background-color: rgb(59, 59, 59);
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 20px;
+  margin: 3% 0;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.projectLinksMobile {
+  text-decoration: none;
+  color: rgb(211, 211, 211);
+}
+.projectLinks:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
+
 
 
 /* ========================{ Media Queries }======================================= */
@@ -539,6 +590,17 @@ html, body {
 
 .successMessage {
   font-size: 3vw;
+}
+
+
+.desktopExtra {
+visibility: hidden;
+display: none;
+}
+
+.mobileExtra {
+  visibility: visible;
+  display: block;
 }
 
 }
