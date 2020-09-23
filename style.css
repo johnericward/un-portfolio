@@ -396,7 +396,7 @@ html, body {
 }
 
 .aboutEextra {
-  color: rgb(9, 201, 226)
+  color: rgb(9, 201, 226);
 }
 .aboutEextra:hover {
   color: rgb(64, 233, 255);
@@ -584,7 +584,7 @@ html, body {
 
 .shopText {
   /* text-align: center; */
-  font-size: 3vw
+  font-size: 3vw;
   /* height: 30%; */
 }
 
