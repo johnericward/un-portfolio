@@ -275,16 +275,28 @@ html, body {
 }
 
 .appleii {
-  width: 90%;
+  width: 80%;
   
-  margin: 20% auto;
+  margin: 5% auto;
   text-align: center;
   align-content: center;
   transition: width .4s;
 }
 
 .appleii:hover {
-  width: 98%;
+  width: 88%;
+}
+
+.cameraLink {
+  width: 50%;
+  margin: 12% auto;
+  text-align: center;
+  align-content: center;
+  transition: width .4s;
+}
+
+.cameraLink:hover {
+  width: 54%;
 }
 
 .other {
