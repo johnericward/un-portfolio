@@ -6,6 +6,9 @@ html, body {
   overflow-x: hidden;
 }
 /* ===================Head of Page======================== */
+
+
+
 .title {
     text-align: center;
     align-content: center;
@@ -16,6 +19,7 @@ html, body {
     padding: 3.5% 0 1% 0;
     letter-spacing: 11px;
     transform: scale(1, .95);
+    
     /* background-color: red; */
 }
 
@@ -159,6 +163,7 @@ html, body {
 .build {
     width: 100%;
     margin: 2% 0;
+    /* border-radius: 7px; */
 }
 
 .topJumpContainer {
@@ -205,7 +210,12 @@ html, body {
 
 
 /* ====================={ Contact Page }========================================== */
-  .contactEntry {
+  
+.contactContentSpacing {
+  margin: 3% auto 15% auto;
+}
+
+.contactEntry {
       /* text-align: center; */
       margin: 10% 5%;
       
@@ -316,6 +326,7 @@ html, body {
 .mePic {
   width: 80%;
   box-shadow: -3px -4px 8px rgba(200,200,200,10);
+  border-radius: 15px;
 }
 
 .aboutText {
@@ -342,6 +353,83 @@ html, body {
   text-decoration: none;
   color: rgb(92, 255, 220);
 }
+
+
+
+
+/* =========================={ Footer }========================================== */
+
+
+.footerRowMaster {
+  background-color: rgb(29, 29, 29);
+  
+}
+
+.footerRow {
+  background-color: rgb(29, 29, 29);
+  /* height: 30vh; */
+  color: white;
+}
+
+.footerLeftCol {
+  text-align: center;
+  align-content: center;
+  margin: 5% auto;
+  /* margin: auto; */
+  /* background-color: red; */
+  text-decoration: none;
+  
+}
+.footerMidCol {
+  text-align: center;
+  align-content: center;
+  margin: 5% auto;
+  /* padding: auto 20px auto 0px; */
+  /* margin: auto; */
+  /* background-color: rgb(225, 226, 159); */
+  text-decoration: none;
+}
+.footerRightCol {
+  text-align: center;
+  align-content: center;
+  margin: 5% auto;
+  /* margin: auto; */
+  /* background-color: rgb(0, 204, 255); */
+  text-decoration: none;
+}
+
+.footerTitle {
+  font-weight: bold;
+  font-size: .9vw;
+}
+
+.footerLinks {
+  text-decoration: none;
+  color: white;
+  font-size: .7vw;
+}
+.footerLinks:hover {
+  text-decoration: none;
+  color: rgb(184, 184, 184);
+}
+.copyRow {
+  /* height: 7vh; */
+  background-color: rgb(29, 29, 29);
+  /* padding: 10% auto; */
+  margin: 5% auto;
+}
+.copyright {
+  margin: 0 auto;
+  padding: 10% auto;
+  /* margin: auto; */
+  
+  text-decoration: none;
+  text-align: center;
+  font-size: .7vw;
+  color: white;
+}
+
+
 
 
 
@@ -613,6 +701,24 @@ html, body {
 .mobileExtra {
   visibility: visible;
   /* display: inline-block; */
+}
+
+
+.footerRow {
+  /* height: 30vh; */
+}
+.copyRow {
+  /* height: 7vh; */
+}
+.footerTitle {
+  font-size: 3vw;
+}
+.footerLinks {
+  font-size: 2vw;
+}
+.copyright {
+  font-size: 2vw;
+  margin: 5% auto 15% auto;
 }
 
 }
