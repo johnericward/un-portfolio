@@ -720,6 +720,7 @@ html, body {
 .copyright {
   font-size: 2vw;
   margin: 5% auto 15% auto;
+  color: orange;
 }
 
 }
