@@ -4,6 +4,7 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: serif;
 }
 /* ===================Head of Page======================== */
 
@@ -19,8 +20,14 @@ html, body {
     padding: 3.5% 0 1% 1.2%;
     letter-spacing: 11px;
     transform: scale(1, .95);
-    
-    /* background-color: red; */
+    font-family: ltc-bodoni-175, serif;
+    font-style: italic;
+    font-weight: 400;
+    text-transform: lowercase;
+    /* font-family: 'Shippori Mincho', serif; */
+    /* the css header link is only in the index page -- update all html pages to use google fonts */
+
+    /* background-color: aqua; */
 }
 
 .subTitle {
@@ -32,6 +39,10 @@ html, body {
     color: rgb(173, 173, 173);
     transform: scale(1, .93);
     margin-bottom: 4%;
+    /* font-family: ltc-bodoni-175, serif; */
+    font-family: serif;
+    font-style: normal;
+    /* font-weight: 400; */
 }
 
 
@@ -65,6 +76,8 @@ html, body {
     margin: 0 auto;
     color: rgb(107, 107, 107);
     text-decoration: none;
+    font-family: serif;
+    font-style: normal;
     }
  .navSub:link {
     color: rgb(78, 78, 78);
@@ -497,6 +510,7 @@ html, body {
 
 .aboutEextra {
   color: rgb(9, 201, 226);
+  font-family: sans-serif;
 }
 .aboutEextra:hover {
   color: rgb(64, 233, 255);
