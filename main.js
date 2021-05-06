@@ -2,9 +2,9 @@
 
 // require('dotenv').config();
 // process.env.API_KEY,
-    
-    
-    
+
+
+
 var firebaseConfig = {
     apiKey: "AIzaSyAIsrHea_coLIGflHeF3CmUUNy50Xzuddw",
     authDomain: "un-portfolio.firebaseapp.com",
@@ -45,7 +45,7 @@ $(document).ready(function () {
     });
 
     database.ref().on("child_added", function (snapshot) {
-        
+
         console.log(snapshot.val().name);
         console.log(snapshot.val().email);
         console.log(snapshot.val().message);
@@ -67,10 +67,12 @@ $(document).ready(function () {
         $(".emailDrop").append("<span class='emailCol'>" + snapshot.val().email + "</span>").append("<br><br>");
         $(".messageDrop").append("<span class='messageCol'>" + snapshot.val().message + "</span>").append("<br><br>");
 
-        
+
 
 
     });
+
+    // lightbox pop up beginning
 
     const lightbox = document.createElement('div')
     lightbox.id = 'lightbox'
@@ -93,6 +95,68 @@ $(document).ready(function () {
         if (e.target !== e.currentTarget) return
         lightbox.classList.remove('active')
     })
+
+    // lightbox pop up ending
+
+
+    // -----------------------------------------------------------------------------
+    // ------------------------ pokemon :) start -----------------------------------
+
+    var p1Pokemon = $("#p1Pokemon");
+    var cpuPokemon = $("#cpuPokemon");
+    var attackButton1 = $("#attackButton1");
+    var attackButton2 = $("#attackButton2");
+    var attackButton3 = $("#attackButton3");
+    var attackButton4 = $("#attackButton4");
+    var p1HealthText = $("#p1HealthText");
+    var p1Health = $("#p1Health");
+    var cpuHealthText = $("#cpuHealthText");
+    var cpuHealth = $("#cpuHealth");
+    var messageBar = $("#messageBar");
+    var messageBar2 = $("#messageBar2");
+    var cpuAttack = [7, 10, 13, 15];
+
+
+
+    var characters = {
+        "p1": {
+            name: "charizard",
+            health: 100,
+            attack1: 7,
+            attack1pp: 30,
+            attack2: 10,
+            attack2pp: 10,
+            attack3: 15,
+            attack3pp: 3,
+            attack4: 17,
+            attack4pp: 3,
+            
+        },
+        "cpu": {
+            name: "mewtwo",
+            health: 240,
+            attack: 10,
+            enemyAttackBack: 20
+        },
+       
+    };
+
+   
+
+
+    $(document).on("click", ".pokemonBtn", function () {
+
+        $(".build").hide();
+
+        $(".p1Pokemon").append
+
+
+    })
+
+
+
+
+
 
 
 

@@ -196,6 +196,11 @@ html, body {
   text-decoration: none;
 }
 
+.pokemonBtn {
+  text-align: center;
+  color: rgba(255, 255, 255, 0);
+}
+
 /* ====================={ Mixed Media }============================================ */
 
 
