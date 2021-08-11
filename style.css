@@ -377,7 +377,12 @@ html, body {
   color: rgb(92, 255, 220);
 }
 
-
+.unfolioImg {
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
 
 
 /* =========================={ Footer }========================================== */
