@@ -664,7 +664,7 @@ html, body {
 
 #lightbox img {
   max-width: 90%;
-  max-height: 80%;
+  max-height: 90%;
   background-color: black;
   border: 20px solid white;
 }
