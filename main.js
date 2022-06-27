@@ -21,10 +21,12 @@ firebase.initializeApp(firebaseConfig);
 var database = firebase.database();
 
 
+
 $(document).ready(function () {
     var name = "";
     var email = "";
     var message = "";
+    $(".attackAnimation").hide();
 
     $('.submit-btn').on("click", function (e) {
         e.preventDefault();
@@ -148,7 +150,7 @@ $(document).ready(function () {
 
         $(".build").hide();
 
-        $(".p1Pokemon").append
+        $(".attackAnimation").show();
 
 
     })
