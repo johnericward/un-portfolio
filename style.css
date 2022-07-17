@@ -703,6 +703,11 @@ html, body {
 
   @media screen and (max-width: 992px) {
   
+
+    #preloader{
+      background-size: 65%;
+    }
+
 .title {
     font-size: 6vw;
 }
