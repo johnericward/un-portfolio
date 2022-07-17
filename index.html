@@ -30,7 +30,9 @@
 
 <body>
 
+<div id="preloader">
 
+</div>
 
     <container>
         <div class="row">
@@ -307,6 +309,19 @@
 
 
     </container>
+
+    <!-- ==================PRE LOADER================================================= -->
+    <script>
+
+    var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+
+    </script>
+
+
+
 
     <!-- ==================WEIRD OLD STUFF FOR FIREBASE================================================= -->
 
