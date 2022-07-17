@@ -1,3 +1,10 @@
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+})
+
+
+
 // Your web app's Firebase configuration
 
 // require('dotenv').config();
